@@ -1,0 +1,118 @@
+
+/* ========= Additional B3R Chamber Page Styles ========= */
+
+.publication-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    box-shadow:var(--shadow);
+    border-radius:12px;
+    overflow:hidden;
+    margin:30px 0;
+}
+
+.publication-table th{
+    background:var(--primary);
+    color:#fff;
+    padding:16px;
+    text-align:left;
+}
+
+.publication-table td{
+    padding:16px;
+    border-bottom:1px solid var(--border);
+}
+
+.status-badge{
+    display:inline-block;
+    background:#e0f2fe;
+    color:#0369a1;
+    padding:6px 12px;
+    border-radius:999px;
+    font-weight:700;
+    font-size:.9rem;
+}
+
+.center-note{
+    text-align:center;
+    margin-top:25px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+    margin:35px 0;
+}
+
+.contact-card{
+    background:#fff;
+    padding:28px;
+    border-radius:14px;
+    box-shadow:var(--shadow);
+    text-align:center;
+}
+
+.contact-card h3{
+    color:var(--secondary);
+    margin-bottom:12px;
+}
+
+.contact-card a{
+    color:var(--secondary);
+    text-decoration:none;
+    font-weight:700;
+}
+
+.contact-form{
+    max-width:760px;
+    margin:35px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid var(--border);
+    border-radius:10px;
+    font:inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline:none;
+    border-color:var(--accent);
+    box-shadow:0 0 0 3px rgba(14,165,233,.15);
+}
+
+.contact-form button{
+    border:none;
+    cursor:pointer;
+    align-self:flex-start;
+}
+
+@media(max-width:768px){
+    .publication-table,
+    .publication-table tbody,
+    .publication-table tr,
+    .publication-table th,
+    .publication-table td{
+        display:block;
+        width:100%;
+    }
+
+    .publication-table th{
+        display:none;
+    }
+
+    .publication-table td{
+        border-bottom:1px solid var(--border);
+    }
+
+    .contact-form button{
+        align-self:stretch;
+    }
+}
