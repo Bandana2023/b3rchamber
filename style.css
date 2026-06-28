@@ -86,3 +86,21 @@
     object-fit:contain;
     border-radius:50%;
 }
+/* Header logo fix */
+.brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    text-decoration:none;
+}
+
+.site-logo{
+    width:60px;
+    height:60px;
+    max-width:60px;
+    max-height:60px;
+    object-fit:contain;
+    display:block;
+    border-radius:50%;
+    flex-shrink:0;
+}
