@@ -62,9 +62,8 @@
         padding:28px;
     }
 
-    .photo-placeholder{
-        width:180px;
-        height:180px;
-        font-size:3rem;
-    }
-}
+<div class="leader-photo">
+    <img src="images/bandana-neupane.jpg"
+         alt="Ms. Bandana Neupane"
+         class="leader-image">
+</div>
