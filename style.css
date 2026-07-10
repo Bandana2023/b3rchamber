@@ -69,11 +69,12 @@
 
 /* Header logo fix */
 .brand{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    text-decoration:none;
-    color:#fff;
+    display:flex !important;
+    align-items:center !important;
+    gap:12px !important;
+    text-decoration:none !important;
+    color:#fff !important;
+    flex-direction:row !important;
 }
 
 .brand-text{
@@ -83,11 +84,14 @@
 }
 
 .site-logo{
-    width:56px;
-    height:56px;
-    object-fit:contain;
+    width:56px !important;
+    height:56px !important;
+    max-width:56px !important;
+    max-height:56px !important;
+    object-fit:contain !important;
+    display:block !important;
     border-radius:50%;
-    flex-shrink:0;
+    flex-shrink:0 !important;
 }
 
 /* Leadership image fix */
@@ -99,4 +103,16 @@
     border-radius:50%;
     display:block;
     box-shadow:var(--shadow);
+}
+
+
+/* B3R Chamber subtitle */
+.brand-text .itank{
+    display:block;
+    font-size:.68rem;
+    color:#7dd3fc;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    margin-top:2px;
+    font-weight:600;
 }
