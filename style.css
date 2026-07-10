@@ -109,10 +109,10 @@
 /* B3R Chamber subtitle */
 .brand-text .itank{
     display:block;
-    font-size:.68rem;
-    color:#7dd3fc;
-    letter-spacing:.12em;
-    text-transform:uppercase;
-    margin-top:2px;
-    font-weight:600;
+    font-size:.78rem;
+    color:#bae6fd;
+    margin-top:3px;
+    font-weight:500;
+    letter-spacing:0;
+    text-transform:none;
 }
